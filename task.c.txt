@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int m,n;
+    cin>>m>>n;
+    double bolme = ((double)m)/n;
+    int tam = m/n;
+    int tamSonuncu = tam%10;
+    
+     int kesrBirinci = (int)(bolme*10) % 10;
+     
+     cout<<"Kesr hissesinin birincisi "<<kesrBirinci<<endl;
+     cout<<"Tam ededinin sonuncusu "<<tamSonuncu<<endl;
+    
+    return 0;
+}
